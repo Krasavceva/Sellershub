@@ -1,0 +1,50 @@
+@import "../../styles/var.scss";
+.container {
+  border: 1px solid $base-color-border;
+  border-radius: 10px;
+  width: 20%;
+  margin-bottom: 30px;
+}
+.connoisseur,
+.connois,
+.karma {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+}
+.box {
+  width: 30px;
+  height: 30px;
+}
+.connoisseur {
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.karma {
+  justify-content: space-around;
+}
+
+.connois__name {
+  margin-left: 4px;
+}
+.p__name {
+  font-size: $base-h2;
+  font-weight: bold;
+}
+.karma__name {
+  color: $base-color-darkgrey;
+}
+.btn {
+  color: $base-color-white;
+  background-color: $base-color-blue;
+  font-family: $base-text;
+  border: 0;
+  border-radius: 10px;
+  height: 48px;
+  width: 70%;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 0 black;
+}
