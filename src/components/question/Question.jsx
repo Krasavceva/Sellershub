@@ -1,5 +1,6 @@
 import styles from "../question/question.module.scss";
 import photo from "../../assets/images/Photo.png";
+import Button from "../button/Button";
 
 import icon from "../../assets/icons/icon.png";
 import icon2 from "../../assets/icons/icon2.png";
@@ -28,7 +29,7 @@ const Question = () => {
           </div>
         </div>
       </div>
-      <button className={styles.btn}>Задать вопрос</button>
+      <Button name={"Задать вопрос"} />
     </div>
   );
 };

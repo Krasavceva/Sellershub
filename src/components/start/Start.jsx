@@ -1,7 +1,8 @@
 import styles from "../start/start.module.scss";
 import pict from "../../assets/images/pict_woman.png";
+import Button from "../button/Button";
 
-const Start = () => {
+export default function Start() {
   return (
     <div className={styles.container}>
       <img className={styles.img} src={pict} alt="logo" />
@@ -9,9 +10,7 @@ const Start = () => {
         <h1>Вы менеджер?</h1>
         <p>Продвигайтесь у нас и получите море клиентов</p>
       </div>
-      <button className={styles.btn}>Начать</button>
+      <Button name={"Начать"} title="button"></Button>
     </div>
   );
-};
-
-export default Start;
+}

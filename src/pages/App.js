@@ -1,16 +1,15 @@
 import "../styles/App.scss";
 
-import Question from "../components/question/Question";
-import Start from "../components/start/Start";
-import Right_menu from "../components/right_menu/Right_menu";
+import Main from "../components/start/Start";
+import Aside_left from "../pages/aside_left";
 import Aside_right from "../pages/Aside_right";
+
 function App() {
   return (
     <div className="App">
+      <Aside_left />
+      <Main />
       <Aside_right />
-      {/* <Question />
-        <Right_menu />
-        <Start /> */}
     </div>
   );
 }
