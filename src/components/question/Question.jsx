@@ -1,6 +1,6 @@
 import styles from "../question/question.module.scss";
 import photo from "../../assets/images/Photo.png";
-import Button from "../button/Button";
+import { Button } from "../buttons/Button";
 
 import icon from "../../assets/icons/icon.png";
 import icon2 from "../../assets/icons/icon2.png";

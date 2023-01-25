@@ -1,0 +1,31 @@
+@import "../../styles/var.scss";
+
+.btn {
+  color: $base-color-white;
+  background-color: $base-color-blue;
+  font-family: $base-text;
+  border: 0;
+  border-radius: 10px;
+  height: 48px;
+  width: 60%;
+}
+.btn:hover,
+.btn__answer:hover {
+  cursor: pointer;
+  box-shadow: 0 1px 0 black;
+}
+
+.btn__answer {
+  border: 1px solid $base-color-border;
+  background-color: $base-color-white;
+  border-radius: 10px;
+}
+.btn__answer:before {
+  background: url("../../assets/icons/pencil.png");
+  width: 30px;
+  height: 30px;
+}
+
+.btn__best {
+  background-color: $base-color-white;
+}

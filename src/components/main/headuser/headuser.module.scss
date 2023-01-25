@@ -1,0 +1,18 @@
+@import "../../../styles/var.scss";
+
+.container,
+.parts,
+.name,
+.icon__part,
+.time__part,
+.views {
+  display: flex;
+}
+
+.container {
+  justify-content: space-between;
+}
+.time__part,
+.views {
+  color: $base-color-comment;
+}

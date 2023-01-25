@@ -1,6 +1,6 @@
 import styles from "../start/start.module.scss";
 import pict from "../../assets/images/pict_woman.png";
-import Button from "../button/Button";
+import { Button } from "../buttons/Button";
 
 export default function Start() {
   return (
