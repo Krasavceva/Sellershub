@@ -9,11 +9,9 @@ const Question = () => {
   return (
     <div className={styles.container}>
       <div className={styles.connoisseur}>
-        <div className={styles.box}>
-          <img src={photo} alt="photo" />
-        </div>
+        <img src={photo} alt="photo" />
         <div className={styles.photo__text}>
-          <div className={styles.connois}>
+          <div className={styles.info_connois}>
             <img className={styles.icon} src={icon} alt="icon" />
             <p className={styles.connois__name}>Знаток</p>
           </div>
@@ -27,7 +25,7 @@ const Question = () => {
           </div>
         </div>
       </div>
-      <Button name={"Задать вопрос"} />
+      <Button className={styles.btn} name={"Задать вопрос"} />
     </div>
   );
 };

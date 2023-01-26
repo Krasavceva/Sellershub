@@ -1,7 +1,7 @@
 .wrapper_main {
-  display: flex;
-  justify-content: space-between;
   margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
 }
 .main {
   margin: 0 20px;

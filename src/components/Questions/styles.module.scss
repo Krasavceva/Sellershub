@@ -5,27 +5,22 @@
   margin-bottom: 30px;
 }
 .connoisseur,
-.connois,
+.info_connois,
 .karma {
   display: flex;
   align-items: center;
 }
-.box {
-  width: 30px;
-  height: 30px;
-  display: inline-block;
-}
+
 .connoisseur {
-  justify-content: space-around;
+  justify-content: space-between;
   margin-bottom: 20px;
-}
-.karma {
-  justify-content: space-around;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .connois__name {
-  margin-left: 1px;
   color: $base-blue;
+  font-weight: $base-h3;
 }
 
 .p__name {
@@ -35,17 +30,14 @@
 .karma__name {
   color: $base-darkgrey;
 }
-.btn {
-  color: $base-white;
-  background-color: $base-blue;
-  font-family: $base-text;
-  border: 0;
-  border-radius: 10px;
-  height: 48px;
-  width: 70%;
-  margin-bottom: 20px;
-}
-.btn:hover {
-  cursor: pointer;
-  box-shadow: 0 1px 0 black;
+
+.photo__text {
+  font-family: $font;
+
+  .karma {
+    margin-bottom: 15px;
+    p {
+      margin: 0 2px;
+    }
+  }
 }

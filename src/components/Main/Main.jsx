@@ -47,7 +47,21 @@ export default function Main() {
         </div>
       </div>
 
-      <div className={styles.wrapper_thirdblock}></div>
+      <div className={styles.wrapper_thirdblock}>
+        <div className={styles.container__box}>
+          <Headuser />
+          <div className={styles.text}>
+            <p>
+              Но перспективное планирование однозначно фиксирует необходимость
+              первоочередных требований. В частности, укрепление и развитие
+              внутренней структуры позволяет оценить значение благоприятных
+              перспектив.
+            </p>
+          </div>
+          <Footerblock />
+          <Inside />
+        </div>
+      </div>
     </div>
   );
 }
