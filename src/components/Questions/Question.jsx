@@ -17,7 +17,7 @@ const Question = () => {
           </div>
           <p className={styles.p__name}>Владимир Савостенко</p>
           <div className={styles.karma}>
-            <div className={styles.box}>
+            <div>
               <img className={styles.icon} src={icon2} alt="icon" />
             </div>
             <p>123</p>

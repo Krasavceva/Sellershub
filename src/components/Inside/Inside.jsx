@@ -9,17 +9,17 @@ import { Best } from "../Buttons/Button.jsx";
 
 const Inside = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.wraper_inside}>
       <div className={styles.container__box}>
         <div className={styles.header__container}>
           <div className={styles.parts}>
             <img src={ava} alt="photo" />
             <div className={styles.name__part}>
               <div className={styles.name}>
-                <p>Катя Кравц</p>
+                <p>Никита Брал</p>
                 <div className={styles.icon__part}>
                   <img src={icon} />
-                  <p>Эксперт</p>
+                  <p className={styles.icon__text}>Эксперт</p>
                 </div>
               </div>
               <div className={styles.time__part}>
@@ -27,7 +27,9 @@ const Inside = () => {
               </div>
             </div>
           </div>
-          <img src={dots} alt="dots" />
+          <div className={styles.img}>
+            <img src={dots} alt="dots" />
+          </div>
         </div>
         <p>
           Противоположная точка зрения подразумевает, что предприниматели в сети

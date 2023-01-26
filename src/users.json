@@ -1,26 +1,26 @@
 [
   {
-    "photo": "./assets/images/top1.png",
+    "photo": "./top1.png",
     "name": "Виктория Андреевна",
     "number": "12212"
   },
   {
-    "photo": "./assets/images/top2.png",
+    "photo": "./top2.png",
     "name": "Игна Николаева",
     "number": "3234 "
   },
   {
-    "photo": "./assets/images/top3.png",
+    "photo": "./top3.png",
     "name": "Светлана Петровна",
     "number": "112 "
   },
   {
-    "photo": "./assets/images/top4.png",
+    "photo": "./top4.png",
     "name": "Мария Ивановна",
     "number": "3456 "
   },
   {
-    "photo": "./assets/images/top5.png",
+    "photo": "./top5.png",
     "name": "Игнат Васильевич",
     "number": "9865 "
   }

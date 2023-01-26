@@ -5,39 +5,42 @@
   margin-bottom: 30px;
 }
 .connoisseur,
-.info_connois,
 .karma {
   display: flex;
   align-items: center;
 }
-
+.karma {
+  gap: 3px;
+}
 .connoisseur {
   justify-content: space-between;
-  margin-bottom: 20px;
   max-width: 80%;
-  margin: 0 auto;
+  margin: 15px auto;
 }
-
 .connois__name {
   color: $base-blue;
   font-weight: $base-h3;
 }
 
-.p__name {
-  font-size: $base-h2;
-  font-weight: bold;
-}
-.karma__name {
-  color: $base-darkgrey;
-}
-
 .photo__text {
   font-family: $font;
-
-  .karma {
-    margin-bottom: 15px;
-    p {
-      margin: 0 2px;
-    }
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  .info_connois {
+    display: flex;
+    align-items: center;
   }
+  p {
+    margin: 5px 0;
+  }
+  .p__name {
+    margin-left: 6px;
+    font-size: $base-h2;
+    font-weight: bold;
+  }
+}
+
+.karma__name {
+  color: $base-darkgrey;
 }

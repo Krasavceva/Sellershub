@@ -3,27 +3,33 @@
 .btn {
   color: $base-white;
   background-color: $base-blue;
-  font-family: $base-text;
+  font-size: $base-h1;
   border: 0;
-
   height: 48px;
-  width: 60%;
+  width: 90%;
 }
 .btn__answer {
   border: 1px solid $base-border;
   background-color: $base-white;
+  width: 113px;
+  color: $base-dark-text;
 }
 .btn__best {
   background-color: $base-white;
   border: 0;
+  color: $base-blue;
+  width: 164px;
 }
 
 .btn,
 .btn__answer,
 .btn__best {
-  border-radius: 10px;
   height: 40px;
+  border-radius: 10px;
   margin-bottom: 15px;
+  font-family: $font;
+  font-size: $base-h2;
+  font-weight: bold;
 }
 
 .btn:hover,
@@ -31,4 +37,10 @@
 .btn__best:hover {
   cursor: pointer;
   box-shadow: 0 1px 0 black;
+}
+
+@media screen and (max-width: 359px) {
+  .btn__answer {
+    border-radius: 5px;
+  }
 }

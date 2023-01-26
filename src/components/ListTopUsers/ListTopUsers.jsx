@@ -6,7 +6,7 @@ export default function ListTopUsers({ title, items }) {
   return (
     <>
       <div className={styles.title}>
-        <h6>{title}</h6>
+        <h4>{title}</h4>
         <img src={icon} alt="title" />
       </div>
       <div className="list_users">

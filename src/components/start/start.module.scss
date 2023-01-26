@@ -1,10 +1,15 @@
 @import "../../styles/vars.scss";
 
-.container {
+.wraper_start {
   background-color: $base-background;
   border-radius: 15px;
 }
 .text__container {
+  max-width: 85%;
+  font-family: $font;
+  text-align: start;
   margin: 0 auto;
-  width: 12em;
+}
+.title {
+  font-size: $big-text;
 }

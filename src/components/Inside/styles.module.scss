@@ -1,6 +1,6 @@
 @import "../../styles/vars.scss";
 
-.container {
+.wraper_inside {
   background-color: $base-inside;
   border-radius: 10px;
   margin: 0 auto;
@@ -23,10 +23,47 @@
 .footer__container {
   justify-content: space-between;
 }
-
+.footer__container {
+  height: 40px;
+}
+p {
+  text-align: justify;
+}
+.time__part,
+.name {
+  font-family: $font;
+  height: fit-content 17px;
+  height: 17px;
+}
+.icon__text {
+  color: $base-blue;
+}
+.time__part {
+  margin-top: 2px;
+}
 .time {
   color: $base-comment;
 }
+.img {
+  display: flex;
+  align-items: flex-start;
+}
 .num {
   color: $base-darkgrey;
+}
+.arrows {
+  background-color: $base-white;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 359px) {
+  .img {
+    display: none;
+  }
+  .parts {
+    flex-direction: column;
+  }
+  .footer__container {
+    flex-direction: column-reverse;
+  }
 }

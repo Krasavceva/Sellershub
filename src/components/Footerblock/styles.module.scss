@@ -1,6 +1,6 @@
 @import "../../styles/vars.scss";
 
-.footer,
+.wraper_footer,
 .footer__container,
 .arrows,
 .dialods {
@@ -8,11 +8,35 @@
   align-items: center;
 }
 
-.footer {
+.wraper_footer {
   margin-bottom: 30px;
   justify-content: space-between;
   height: 40px;
 }
+.footer__container {
+  font-family: $font;
+  color: $base-darkgrey;
+  height: fit-content;
+}
 .num {
   color: $base-darkgrey;
+  padding: 0 3px;
+}
+.arrows {
+  background-color: $base-bacground-arrows;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 992px) {
+}
+
+@media screen and (max-width: 359px) {
+  .wraper_footer {
+    flex-direction: column;
+  }
+  .footer__container {
+    display: none;
+  }
 }

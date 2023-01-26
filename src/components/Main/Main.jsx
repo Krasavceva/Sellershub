@@ -8,7 +8,7 @@ export default function Main() {
   return (
     <div className={styles.wrapper_main}>
       <div className={styles.wrapper_firstblock}>
-        <div className={styles.container__box}>
+        <div className={styles.wrapper__box}>
           <Headuser />
           <div className={styles.text}>
             <p>
@@ -25,7 +25,7 @@ export default function Main() {
       </div>
 
       <div className={styles.wrapper_secondblock}>
-        <div className={styles.header}>
+        <div className={styles.wrapper__box}>
           <Headuser />
           <div className={styles.text}>
             Противоположная точка зрения подразумевает, что предприниматели в
@@ -48,7 +48,7 @@ export default function Main() {
       </div>
 
       <div className={styles.wrapper_thirdblock}>
-        <div className={styles.container__box}>
+        <div className={styles.wrapper__box}>
           <Headuser />
           <div className={styles.text}>
             <p>

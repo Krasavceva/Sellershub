@@ -1,23 +1,56 @@
 @import "../../styles/vars.scss";
 
-.container,
-.parts,
-.name,
+.headuser_leftpart,
 .icon__part,
-.time__part,
-.views {
+.view__part {
   display: flex;
   align-items: center;
 }
 
-.container {
+.headuser_parts {
+  display: flex;
   justify-content: space-between;
+  margin-top: 15px;
 }
-.icon__part {
+
+.name__part {
+  display: flex;
+  font-size: $base-h3;
+  font-weight: bolder;
+}
+.name__text_part {
+  height: fit-content;
+  height: 17px;
+}
+.icon__text {
   color: $base-blue;
-  margin-left: 10px;
 }
-.time__part,
-.views {
+.text__part {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.time__part {
+  margin-top: 2px;
+  display: flex;
+  align-items: center;
   color: $base-comment;
+  font-family: $font;
+}
+.view {
+  color: $base-view;
+}
+
+@media screen and (max-width: 359px) {
+  .headuser_parts {
+    flex-direction: column;
+  }
+  .headuser_leftpart {
+    flex-direction: column;
+  }
+  .rightpart {
+    display: flex;
+    justify-content: center;
+  }
 }

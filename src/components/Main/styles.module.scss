@@ -1,44 +1,46 @@
 @import "../../styles/vars.scss";
-//first
-.container {
-  border: 1px solid $base-border;
-  border-radius: 15px;
-}
-.container__box {
-  max-width: 90%;
-  margin: 0 auto;
-}
-.img {
-  max-width: 100%;
-}
-.text {
-  display: flex;
-  flex-direction: column;
-  text-align: justify;
-  font-weight: bold;
-  margin: 30px 0;
-  align-items: center;
-}
 
-//second
-.container {
-  max-width: 90%;
-  border: 1px solid $base-border;
-  border-radius: 15px;
-}
 .header {
   max-width: 90%;
   margin: 0 auto;
 }
-.text {
-  text-align: justify;
-  font-weight: bold;
-  margin: 40px 0;
-}
 
 .wrapper_firstblock,
-.wrapper_secondblock {
+.wrapper_secondblock,
+.wrapper_thirdblock {
   border: 1px solid $base-border;
   border-radius: 15px;
   margin-bottom: 15px;
+}
+.wrapper__box {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.text {
+  margin: 30px 0;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  font-weight: bold;
+  margin: 15px 0;
+  font-size: $base-h2;
+}
+.img {
+  max-width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+  .wrapper {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 359px) {
+  .img {
+    display: none;
+  }
+  .wrapper_main {
+    max-width: 80%;
+  }
 }

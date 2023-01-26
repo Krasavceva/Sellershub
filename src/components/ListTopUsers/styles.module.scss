@@ -16,18 +16,18 @@
   display: flex;
   margin-bottom: 16px;
   .avatar {
-    margin-right: 10px;
+    margin-right: 3px;
   }
   .info_user {
     font-family: $font;
     font-size: 14px;
-    line-height: 17px;
+
     color: #232727;
     .number_user {
       display: flex;
       align-items: center;
       img {
-        margin-right: 8px;
+        margin-right: 5px;
       }
     }
   }

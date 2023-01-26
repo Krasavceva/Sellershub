@@ -9,7 +9,7 @@ import arrow from "../../assets/icons/arrow.png";
 
 const Footer = () => {
   return (
-    <div className={styles.footer}>
+    <div className={styles.wraper_footer}>
       <div className={styles.footer__container}>
         <div className={styles.arrows}>
           <img src={done} alt="done" />
