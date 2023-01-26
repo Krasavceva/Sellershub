@@ -1,0 +1,35 @@
+@import "../../styles/vars.scss";
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  h6 {
+    margin-right: 8px;
+
+    font-family: $font;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #232727;
+  }
+}
+.wrapper_user {
+  display: flex;
+  margin-bottom: 16px;
+  .avatar {
+    margin-right: 10px;
+  }
+  .info_user {
+    font-family: $font;
+    font-size: 14px;
+    line-height: 17px;
+    color: #232727;
+    .number_user {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 8px;
+      }
+    }
+  }
+}

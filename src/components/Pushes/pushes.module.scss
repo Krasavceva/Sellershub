@@ -1,0 +1,27 @@
+@import "../../styles/vars.scss";
+
+.container {
+  margin-bottom: 30px;
+}
+.new,
+.my__quest,
+.my__answers,
+.notifications {
+  display: flex;
+  height: 52px;
+}
+.box {
+  width: 30px;
+  height: 30px;
+}
+.new {
+  background-color: #efefff;
+}
+img {
+  margin-right: 7px;
+}
+.p__new {
+  color: $base-blue;
+
+  border-radius: 10px;
+}

@@ -1,4 +1,4 @@
-import styles from "../buttons/button.module.scss";
+import styles from "../Buttons/button.module.scss";
 
 function Button(props) {
   const { name } = props;

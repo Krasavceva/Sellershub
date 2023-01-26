@@ -1,0 +1,18 @@
+@import "../../styles/vars.scss";
+
+.footer,
+.footer__container,
+.arrows,
+.dialods {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  margin-bottom: 30px;
+  justify-content: space-between;
+  height: 40px;
+}
+.num {
+  color: $base-darkgrey;
+}

@@ -1,0 +1,10 @@
+@import "../../styles/vars.scss";
+.title__name {
+  display: flex;
+  align-items: center;
+}
+.title {
+  margin-right: 10px;
+  font-family: $base-text1;
+  font-size: $base-h2;
+}

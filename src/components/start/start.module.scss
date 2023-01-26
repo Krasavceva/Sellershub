@@ -1,8 +1,7 @@
-@import "../../styles/var.scss";
+@import "../../styles/vars.scss";
 
 .container {
-  background-color: $base-color-background;
-  max-width: 30%;
+  background-color: $base-background;
   border-radius: 15px;
 }
 .text__container {

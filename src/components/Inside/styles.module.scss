@@ -1,0 +1,32 @@
+@import "../../styles/vars.scss";
+
+.container {
+  background-color: $base-inside;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.container__box {
+  padding: 15px;
+}
+.header__container,
+.parts,
+.icon__part,
+.name,
+.time__part,
+.footer__container,
+.arrows {
+  display: flex;
+  align-items: center;
+}
+.header__container,
+.footer__container {
+  justify-content: space-between;
+}
+
+.time {
+  color: $base-comment;
+}
+.num {
+  color: $base-darkgrey;
+}

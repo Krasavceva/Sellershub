@@ -1,31 +1,33 @@
-@import "../../styles/var.scss";
+@import "../../styles/vars.scss";
 
 .btn {
-  color: $base-color-white;
-  background-color: $base-color-blue;
+  color: $base-white;
+  background-color: $base-blue;
   font-family: $base-text;
   border: 0;
-  border-radius: 10px;
+
   height: 48px;
   width: 60%;
 }
+.btn__answer {
+  border: 1px solid $base-border;
+  background-color: $base-white;
+}
+.btn__best {
+  background-color: $base-white;
+  border: 0;
+}
+
+.btn,
+.btn__answer,
+.btn__best {
+  border-radius: 10px;
+  height: 40px;
+}
+
 .btn:hover,
-.btn__answer:hover {
+.btn__answer:hover,
+.btn__best:hover {
   cursor: pointer;
   box-shadow: 0 1px 0 black;
-}
-
-.btn__answer {
-  border: 1px solid $base-color-border;
-  background-color: $base-color-white;
-  border-radius: 10px;
-}
-.btn__answer:before {
-  background: url("../../assets/icons/pencil.png");
-  width: 30px;
-  height: 30px;
-}
-
-.btn__best {
-  background-color: $base-color-white;
 }

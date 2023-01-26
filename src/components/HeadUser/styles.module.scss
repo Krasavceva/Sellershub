@@ -1,0 +1,23 @@
+@import "../../styles/vars.scss";
+
+.container,
+.parts,
+.name,
+.icon__part,
+.time__part,
+.views {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  justify-content: space-between;
+}
+.icon__part {
+  color: $base-blue;
+  margin-left: 10px;
+}
+.time__part,
+.views {
+  color: $base-comment;
+}
