@@ -8,7 +8,7 @@ export default function SectionUsers() {
       <div className={styles.wrapper_top_expert}>
         <ListTopUsers title="Топ знатоков" items={users} />
       </div>
-      <div className="wrappet_top_acitve">
+      <div className="wrapper_top_acitve">
         <ListTopUsers title="Топ активных" items={users} />
       </div>
     </div>

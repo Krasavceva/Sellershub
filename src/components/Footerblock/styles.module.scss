@@ -7,7 +7,6 @@
   display: flex;
   align-items: center;
 }
-
 .wraper_footer {
   margin-bottom: 30px;
   justify-content: space-between;
@@ -24,12 +23,21 @@
 }
 .arrows {
   background-color: $base-bacground-arrows;
-  padding: 5px 10px;
   border-radius: 10px;
   margin-right: 10px;
 }
 
 @media screen and (max-width: 992px) {
+  .arrows {
+    padding: 2px 5px;
+    margin-right: 0;
+  }
+  .num {
+    padding-right: 0;
+  }
+  .dialods {
+    margin-right: 5px;
+  }
 }
 
 @media screen and (max-width: 359px) {

@@ -6,13 +6,11 @@
   display: flex;
   align-items: center;
 }
-
 .headuser_parts {
   display: flex;
   justify-content: space-between;
   margin-top: 15px;
 }
-
 .name__part {
   display: flex;
   font-size: $base-h3;
@@ -30,7 +28,6 @@
   flex-direction: column;
   align-items: flex-start;
 }
-
 .time__part {
   margin-top: 2px;
   display: flex;

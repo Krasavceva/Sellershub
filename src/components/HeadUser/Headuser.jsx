@@ -37,20 +37,4 @@ const Headuser = () => {
     </div>
   );
 };
-
 export default Headuser;
-
-{
-  /* <div className={styles.wrapper_user}>
-  <div className={styles.avatar}>
-    <img src={item.photo} alt="photo" />
-  </div>
-  <div className={styles.info_user}>
-    <p>{item.name}</p>
-    <div className={styles.number_user}>
-      <img src={icon2} alt="number" />
-      <span>{item.number}</span>
-    </div>
-  </div>
-</div>; */
-}
