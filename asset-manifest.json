@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Sellershub/static/css/main.45c590b5.css",
+    "main.js": "/Sellershub/static/js/main.000125bd.js",
+    "static/media/img.png": "/Sellershub/static/media/img.2a8c0dd8e3fe0fd5618d.png",
+    "static/media/pict_woman.png": "/Sellershub/static/media/pict_woman.8b8cd6404eb03b487c2b.png",
+    "static/media/photo.png": "/Sellershub/static/media/photo.764100c3216797e52851.png",
+    "index.html": "/Sellershub/index.html",
+    "main.45c590b5.css.map": "/Sellershub/static/css/main.45c590b5.css.map",
+    "main.000125bd.js.map": "/Sellershub/static/js/main.000125bd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45c590b5.css",
+    "static/js/main.000125bd.js"
+  ]
+}
